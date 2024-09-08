@@ -1,65 +1,135 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>About Me</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .main-info {
-            background: #333;
-            color: #fff;
-            padding: 20px;
-        }
-        .main-info h1 {
-            margin: 0;
-        }
-        .hobbies, .lewis, .course, .job, .fun-fact {
-            background: #e7e7e7;
-            padding: 15px;
-            margin-bottom: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header class="main-info">
-            <h1>Matthew Shouse</h1>
-            <h1>Preferred Name: Matthew</h1>
-        </header>
+    <head>
+        <title>About Me</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container-main-info"> 
+            <div class="main-info-text">
+                <header class="main-info">
+                    <h1>Matthew Shouse</h1>
+                    <h1>Preferred Name: Matthew</h1>
+                    <h1>Lewis Email: <a href="mailto:matthewdshouse@lewisu.edu">matthewdshouse@lewisu.edu</a></h1>
+                    <h1>Discord: masterjedi86</h1>
+                </header>
+            </div>
+            <div class="image">
+                <img src="garden_of_gods_selfie_resized.png" alt="me (Matthew Shouse) at the Garden of the gods in Colorado." width="242px">
+            </div>
+        </div>
 
-        <section class="lewis">
-			<h2>Year at Lewis: 4th year</h2>
-			<h2>Lewis major/minor/concentrations: [Your major/minor/concentrations]</h2>
-			<h2>Reasons for pursuing this degree: [Your reasons for pursuing the degree]</h2>
-        </section>
+        <div class="container"> 
+            <section class="lewis">
+                <h2>Introduction</h2>
+                <p>Hello everyone, I am Matthew Shouse and I am currently a senior here at Lewis University.  I commute here to school and 
+                    live with my family including my mom and dad and I have a brother and a sister.  I am also the oldest kid in my family.  
+                </p>
+                <p>Year at Lewis: 4th year</p>
+                <p>Lewis major/minor/concentrations: I am majoring in Computer Science</p>
+                <p>Reasons for pursuing this degree: I enjoy working with computers and I am eager to learn more about them</p>
+            </section>
+        </div>
 
-		<section class="course">
-            <h2>Reasons for Taking This Course</h2>
-            <p>[Your reasons for taking this course]</p>
-        </section>
+        <div class="container"> 
+            <section class="course">
+                <h2>What I Hope to Learn in this Course</h2>
+                <ul style="list-style-type: square;">
+                    <li>It is a mandatory requirement</li>
+                    <li>This couse can be very interesting to learn about how software is developed</li>
+                    <li>This information will also be very important to learn when getting a job as a software developer</li>
+                </ul>
+            </section>
+        </div>
 
-		<section class="job">
-            <p>Current/Recent Job</p>
-			<p>[Your job responsibilities]</p>
-        </section>		
+        <div class="container"> 
+            <section class="job">
+                <h2>Current/Recent Job</h2>
+                <p>My recent job was working at Jewel Osco as a Liquor Associate which conisted of stocking shelves and managing the inventory
+                    I also then during the summer of 2022 still working at Jewel took another position, along side the Liquor Associate, to
+                    be a Scan Coordinator.  That meant I would have to come in early on Tuesday and Wednesday to verify that the new sales
+                    came through and to hang up tags around the store.  The system they also used for the tags as well as other functions used
+                    Linux, so that was one of my first introductions to Linux in the real world.   
+                </p>
+            </section>	
+        </div>
 
-        <section class="hobbies">
-            <h2>Hobbies and Special Interests</h2>
-            <p>[Your hobbies or special interests]</p>
-        </section>
+        <div class="container">
+            <section class="hobbies">
+                <h2>My Favorite Hobby / Activity</h2>
+                <ul style="list-style-type: square;">
+                    <li>Playing Video games</li>
+                    <li>Hanging out with friends</li>
+                    <li>Playing sports: basketball, football, and even baseball</li>
+                    <li>Spending time with family</li>
+                    <li>Traveling</li>
+                    <li>Going for walks and bike rides</li>
+                </ul>
+                <a href="hobbies_and_activities.html" target="_blank">For more information</a>
+            </section>
+        </div>
 
-        <section class="fun-fact">
-            <h2>Fun Fact</h2>
-            <p>[A fun fact about yourself]</p>
-        </section>
-    </div>
-</body>
+        <div class="container">
+            <section class="fun-fact">
+                <h2>Fun Fact</h2>
+                <p>A fun fact about me is that I run a tiny lawn mowing business.  I have been cutting lawns since 2017 and then recently
+                    expanded it to a business in 2021.  I cut a total of 5 lawns right now and at the highest I had 6 lawns to cut.
+                </p>
+            </section>
+        </div>
+
+        <div class="container">
+            <div class="last-update">
+                <h4>Last Updated: 09/07/24</h4>
+            </div>
+        </div>
+
+        <!--
+            <header class="main-info">
+                <h1>Matthew Shouse</h1>
+                <h1>Preferred Name: Matthew</h1>
+                <h1>Lewis Email: <a href="mailto:matthewdshouse@lewisu.edu">matthewdshouse@lewisu.edu</a></h1>
+                <h1>Discord: masterjedi86</h1>
+            </header>
+        
+            <section class="lewis">
+                <h2>Year at Lewis: 4th year</h2>
+                <h2>Lewis major/minor/concentrations: I am majoring in Computer Science</h2>
+                <h2>Reasons for pursuing this degree: I enjoy working with computers and I am eager to learn more about them</h2>
+            </section>
+
+            <section class="course">
+                <h2>Reasons for Taking This Course</h2>
+                <p>My reason for taking this course is that it is mostly manditory.  However, it can be very interesting and important to 
+                    learn about this information</p>
+            </section>
+
+            <section class="job">
+                <h2>Current/Recent Job</h2>
+                <p>My recent job was working at Jewel Osco as a Liquor Associate which conisted of stocking shelves and managing the inventory
+                    I also then during the summer of 2022 still working at Jewel took another position, along side the Liquor Associate, to
+                    be a Scan Coordinator.  That meant I would have to come in early on Tuesday and Wednesday to verify that the new sales
+                    came through and to hang up tags around the store.  The system they also used for the tags as well as other functions used
+                    Linux, so that was one of my first introductions to Linux in the real world.   
+                </p>
+            </section>		
+
+            <section class="hobbies">
+                <h2>Hobbies and Special Interests</h2>
+                <p>My hobbies and special interest are playing video games with friends, spending time with family, traveling, and going on 
+                    walks and bike rides.  I have a real special interest to see more of the world when I get older.  I want to travel around 
+                    to different countries and just take everything in and get to experience a completely different environment and world.  
+                    My top choice right now if I could go would be to Italy.
+                </p>
+            </section>
+
+            <section class="fun-fact">
+                <h2>Fun Fact</h2>
+                <p>[A fun fact about yourself]</p>
+            </section>
+        </div>
+
+        -->
+    </body>
 </html>
